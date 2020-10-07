@@ -1,0 +1,29 @@
+import java.util.Scanner;
+/**
+ *
+ * @author frd
+ */
+public class inputnilai {
+    public static void main(String[] args){
+        
+        // Buat Scanner
+        Scanner inp = new Scanner(System.in);
+        
+        // Ambil Nilai
+        System.out.print("Masukan nilai = ");
+        int nilai =inp.nextInt();
+        
+        // Proses if else
+        if(nilai <=70){
+            //print
+            
+            System.out.println("C");
+            } else if (nilai >= 76 && nilai <= 85){
+                System.out.println("B");
+        } else if (nilai >= 86 && nilai <= 100){
+            System.out.println("A");
+        } else {
+            System.out.println("EROR");
+        }
+    }
+}
