@@ -1,0 +1,31 @@
+import java.util.Scanner;
+/**
+ *
+ * @author frd
+ */
+public class KELULUSAN {
+    public static void main(String[] args) {
+        // Buat Scanner
+        Scanner inp = new Scanner(System.in);
+        
+        //Ambil Nama
+        System.out.println("Masukan nama anda = ");
+        String Nama = inp.next();
+        
+        // Ambil NIM
+        System.out.println("Masukan NIM = ");
+        String NIM = inp.next();
+        
+        // Ambil Nilai
+        System.out.print("Masukan Nilai = ");
+        int nilai = inp.nextInt();
+        
+        // Print
+        if (nilai > 70) {
+            System.out.println("ANDA LULUS");
+        } else {
+            System.out.println("ANDA TIDAK LULUS");
+        }
+    }
+}
+   
